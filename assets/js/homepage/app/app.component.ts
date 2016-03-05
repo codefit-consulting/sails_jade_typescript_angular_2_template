@@ -11,6 +11,7 @@ export class AppComponent {
   emojis:string[] = [
     ":)",
     ":(",
-    "%-)"
+    "%-)",
+    "8=D"
   ]
 }
