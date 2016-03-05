@@ -12,7 +12,6 @@ block body
   script(src='node_modules/rxjs/bundles/Rx.js')
   script(src='node_modules/angular2/bundles/angular2.dev.js')
   script(src='node_modules/angular2/bundles/router.dev.js')
-  script(src='node_modules/lodash/lodash.js')
 
   // 2. Configure SystemJS
   script.
@@ -21,13 +20,13 @@ block body
         lodash: 'node_modules/lodash/lodash.js'
       },
       packages: {        
-        angular: {
+        js: {
           format: 'register',
           defaultExtension: 'js'
         }
       }
     });
-    System.import('angular/homepage/app/main')
+    System.import('js/homepage/app/main')
           .then(null, console.error.bind(console));
 
 

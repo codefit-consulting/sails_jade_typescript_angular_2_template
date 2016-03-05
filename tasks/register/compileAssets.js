@@ -18,6 +18,8 @@ module.exports = function(grunt) {
     'less:dev',
     'copy:dev',
     'coffee:dev',
-    'ts:dev'
+    'jade:dev',
+    'ts:assets',
+    'ts:api'
   ]);
 };

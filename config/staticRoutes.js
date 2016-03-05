@@ -10,8 +10,8 @@ module.exports.staticRoutes = {
         console.log('Load custom static folder /node_modules');
         app.use('/node_modules', express.static(process.cwd() + '/node_modules'));
     },
-    angular: function(app){
-        console.log('Load custom static folder /angular');
-        app.use('/angular', express.static(process.cwd() + '/angular'));
-    }
+    // angular: function(app){
+    //     console.log('Load custom static folder /angular');
+    //     app.use('/angular', express.static(process.cwd() + '/angular'));
+    // }
 };
